@@ -1,1 +1,26 @@
+# TuTienFull v1 - Paper 1.21.1
+save-interval-seconds: 60
 
+cultivation:
+  # EXP tu luyện mỗi lần /tutien tu
+  exp-per-train: 8
+  # cooldown tu luyện (giây)
+  train-cooldown: 2
+
+breakthrough:
+  # cooldown đột phá (giây)
+  cooldown: 10
+  # tỉ lệ fail cơ bản (0.0 -> 1.0)
+  base-fail: 0.18
+  # fail thì mất bao nhiêu % exp của tầng hiện tại
+  fail-lose-exp-percent: 0.10
+
+tribulation:
+  enabled: true
+  # số tia sét khi đột phá lên cảnh giới mới
+  lightning-strikes: 5
+  # damage mỗi tia sét (tim)
+  damage: 3.0
+
+gui:
+  title: "<gradient:#00d4ff:#7cff6b><bold>Tu Tiên</bold></gradient>"
