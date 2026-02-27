@@ -1,1 +1,33 @@
+prefix: "<gray>[<gradient:#00d4ff:#7cff6b><bold>TuTien</bold></gradient><gray>]</gray> "
+no-permission: "<red>Không có quyền.</red>"
+player-only: "<red>Lệnh này chỉ dùng trong game.</red>"
 
+help:
+  - "<yellow>/tutien</yellow> <gray>- mở GUI</gray>"
+  - "<yellow>/tutien info</yellow> <gray>- xem chỉ số</gray>"
+  - "<yellow>/tutien tu</yellow> <gray>- tu luyện</gray>"
+  - "<yellow>/tutien dotpha</yellow> <gray>- đột phá</gray>"
+  - "<yellow>/tutien top</yellow> <gray>- top tu vi</gray>"
+  - "<red>/tutien admin set <player> <realm> <layer> <exp></red>"
+
+trained: "<green>+{exp} EXP tu luyện.</green> <gray>({now}/{need})</gray>"
+train-cd: "<red>Chờ {sec}s nữa mới tu luyện được.</red>"
+
+break-cd: "<red>Chờ {sec}s nữa mới đột phá được.</red>"
+break-ready: "<yellow>Đột phá: </yellow><gray>{now}/{need}</gray> <yellow>— Tỉ lệ thất bại:</yellow> <red>{fail}%</red>"
+break-success: "<green><bold>ĐỘT PHÁ THÀNH CÔNG!</bold></green> <yellow>{old}</yellow> <gray>→</gray> <aqua>{new}</aqua>"
+break-fail: "<red><bold>ĐỘT PHÁ THẤT BẠI!</bold></red> <gray>Mất {lose} EXP.</gray>"
+
+tribulation: "<red><bold>LÔI KIẾP!</bold></red> <gray>Hãy sống sót...</gray>"
+
+info:
+  - "<gold>== Tu Tiên ==" 
+  - "<yellow>Cảnh giới:</yellow> <aqua>{realm}</aqua> <gray>Tầng</gray> <white>{layer}</white>"
+  - "<yellow>EXP:</yellow> <white>{exp}</white><gray>/</gray><white>{need}</white>"
+  - "<yellow>Tu vi:</yellow> <green>{power}</green>"
+  - "<yellow>Tu luyện:</yellow> <gray>CD</gray> <white>{traincd}s</white>"
+  - "<yellow>Đột phá:</yellow> <gray>CD</gray> <white>{breakcd}s</white>"
+
+reloaded: "<green>Reload xong.</green>"
+admin-set: "<green>Set xong cho {player}.</green>"
+unknown-realm: "<red>Realm không đúng. Ví dụ: LUYEN_KHI, TRUC_CO, KIM_DAN...</red>"
