@@ -1,8 +1,0 @@
-name: TuTienFull
-version: 1.0.0
-main: me.tutien.full.TuTienPlugin
-api-version: 1.21
-
-commands:
-  tutien:
-    description: He thong Tu Tien
