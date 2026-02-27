@@ -1,8 +1,13 @@
 name: TuTienFull
 version: 1.0.0
 main: me.tutien.full.TuTienPlugin
-api-version: 1.21
-
+api-version: "1.21"
+author: hungban946-prog
 commands:
   tutien:
-    description: He thong Tu Tien
+    description: He thong tu tien
+    usage: /tutien
+    aliases: [tt]
+permissions:
+  tutien.admin:
+    default: op
