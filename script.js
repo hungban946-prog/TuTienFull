@@ -2,7 +2,7 @@
 const CONFIG = {
   tenEm:  "Ngọc",   // tên người yêu, VD "Linh"
   tenAnh: "Hưng",      // tên bạn ký cuối thư
-  ngayYeu: "2026/8/10",        // ngày yêu nhau, VD "2024-02-14" (để trống thì hiện dòng 20/10)
+  ngayYeu: "2026-8-10",        // ngày yêu nhau, VD "2024-02-14" (để trống thì hiện dòng 20/10)
   nhac: "snaptik.vn_7689330389227261202.mp3",           // file nhạc cùng thư mục, VD "nhac.mp3"
   kyNiem: "sự sung sướng mỗi đêm"          // 1-2 câu KỶ NIỆM RIÊNG chỉ hai bạn hiểu, sẽ chèn vào thư. VD "Anh vẫn nhớ lần em đội mưa mang áo mưa cho anh."
 };
