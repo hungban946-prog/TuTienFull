@@ -378,7 +378,7 @@ function drawBlossoms(now){
   ctx.globalAlpha = 1;
 }
 function drawCouple(){
-  const col = '#10080c'; ctx.fillStyle = col; ctx.strokeStyle = col; ctx.lineCap = 'round';
+  const col = '#f3d9d4'; ctx.fillStyle = col; ctx.strokeStyle = col; ctx.lineCap = 'round';
   const h = pH, by = gy(bx), top = by - h, g = h*.9, gby = gy(gx), gtop = gby - g;
   const hx = (bx + gx)/2, hy = top + .5*h;
   ctx.beginPath(); ctx.arc(bx, top + .075*h, .075*h, 0, 6.283); ctx.fill();
