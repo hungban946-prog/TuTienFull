@@ -24,7 +24,7 @@ const LETTER = [
   { cls:"to",   text:"Gửi {em}," },
   { text:"Cảm ơn em đã đến, và ở lại." },
   ...(CONFIG.kyNiem ? [{ text: CONFIG.kyNiem }] : []),
-  { text:"Chúc em 20/10 thật nhiều nụ cười." },
+  { text:"Chúc em 20/10 thật nhiều nụ cười.và luôn mạnh khỏe nha, và mãi trẻ đẹp" },
   { cls:"sign", text:"— {anh}" }
 ];
 const VOUCHERS = [
