@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gửi em · 20/10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Be+Vietnam+Pro:wght@300;400&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="c"></canvas>
+<div id="dots"></div>
+<button id="music" aria-label="Bật/tắt nhạc">♪</button>
+
+<!-- 0. Mở đầu -->
+<section class="scene" id="s0">
+  <div class="bigheart">♥</div>
+  <div class="kicker">20 · 10 · 2026</div>
+  <h1 class="big">Gửi <span class="nameHer">em</span></h1>
+  <p class="sub">Một món quà nhỏ</p>
+  <button class="btn" data-next>Mở ra nhé ♥</button>
+</section>
+
+<!-- 1. Chòm sao -->
+<section class="scene" id="s1">
+  <div class="bottom">
+    <div id="cap1a"></div>
+    <div id="cap1b"></div>
+    <button class="btn" data-next>Tiếp tục</button>
+  </div>
+</section>
+
+<!-- 2. Vòng 3D -->
+<section class="scene" id="s2">
+  <div class="head">
+    <div class="kicker">tám điều trong rất nhiều điều</div>
+    <h2 class="big">Vì sao anh thương em</h2>
+  </div>
+  <div id="stage"><div id="ring"></div></div>
+  <div class="bottom">
+    <div class="tip">kéo để xoay vòng ♥</div>
+    <button class="btn" data-next>Tiếp tục</button>
+  </div>
+</section>
+
+<!-- 3. Cây tình yêu -->
+<section class="scene" id="s3">
+  <div id="title3">
+    <div class="kicker">cái cây của riêng mình</div>
+    <h1>Gửi <span class="nameHer">em</span></h1>
+    <div id="typed3"></div>
+  </div>
+  <div class="bottom">
+    <div id="hint3">chạm vào hai bạn nhỏ nhé ♥</div>
+    <div id="counter"></div>
+    <div class="row">
+      <button class="btn" id="letterBtn">Mở thư</button>
+      <button class="btn" data-next>Tiếp tục</button>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Hộp quà -->
+<section class="scene" id="s4">
+  <div class="kicker">còn một món quà cuối</div>
+  <h2 class="big" id="t4">Chạm vào hộp quà</h2>
+  <div class="giftwrap" id="gw">
+    <div class="rays"></div>
+    <svg id="gift" class="tap" viewBox="0 0 200 200" aria-label="Hộp quà">
+      <defs>
+        <linearGradient id="gb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9808d"/><stop offset="1" stop-color="#a94f62"/></linearGradient>
+        <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecaab4"/><stop offset="1" stop-color="#d9808d"/></linearGradient>
+        <linearGradient id="gr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c9a265"/><stop offset=".5" stop-color="#f0d9a4"/><stop offset="1" stop-color="#c9a265"/></linearGradient>
+      </defs>
+      <rect x="32" y="92" width="136" height="96" rx="8" fill="url(#gb)"/>
+      <rect x="90" y="92" width="20" height="96" fill="url(#gr)"/>
+      <g id="lid">
+        <rect x="22" y="64" width="156" height="32" rx="8" fill="url(#gl)"/>
+        <rect x="90" y="64" width="20" height="32" fill="url(#gr)"/>
+        <path d="M100 64 C 70 20, 34 40, 62 62 C 76 70, 92 66, 100 64 Z" fill="url(#gr)"/>
+        <path d="M100 64 C 130 20, 166 40, 138 62 C 124 70, 108 66, 100 64 Z" fill="url(#gr)"/>
+        <circle cx="100" cy="62" r="8" fill="#f0d9a4"/>
+      </g>
+    </svg>
+  </div>
+  <div id="msg4"></div>
+  <div id="love4"></div>
+  <div class="bottom">
+    <div class="tip" id="tip4">chạm vào hộp quà để mở</div>
+    <div class="row"><button class="btn" id="vBtn" style="display:none">Phiếu tình yêu</button><button class="btn" id="replay" style="display:none">Xem lại từ đầu</button></div>
+  </div>
+</section>
+
+<div id="bubble"></div>
+<div id="modal">
+  <div class="card">
+    <div id="letter"></div>
+    <div class="row"><button class="btn" id="closeBtn">Đóng</button></div>
+  </div>
+</div>
+<div id="wp"></div><div id="veil"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
